@@ -1,0 +1,21 @@
+section {
+    font-size: 15px;
+}
+
+div {
+    font-size: 1rem;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(97, 228, 10, 0.603);
+    margin: 5px;
+}
+
+.box2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(228, 107, 9, 0.603);
+    background: rgba(255, 0, 0, 30);
+}

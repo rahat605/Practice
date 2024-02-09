@@ -1,0 +1,18 @@
+div {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (max-width:600px) and (min-width:200px){
+    div {
+        background-color: red;
+        color: white;
+    }
+}
+
+@media (orientation: landscape) {
+    div {
+        background-color: black;
+        color: white;
+    }
+}
