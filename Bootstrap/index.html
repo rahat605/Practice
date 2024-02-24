@@ -13,13 +13,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar bg-black fixed-top navbar-expand-lg">
+    <nav class="navbar bg-danger fixed-top navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-fluid">
         <a href="#" class="navbar-brand">SutterUp</a>
-        <div class="navbar-nav">
+        <button class="navbar-toggler" data-bs-dismiss="collapse" data-ds-target="navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
             <a href="#" class="nav-link">Home</a>
             <a href="#" class="nav-link">Price</a>
             <a href="#" class="nav-link">About us</a>
+          </div>
         </div>
+      </div>
     </nav>
 
     <div class="container">
@@ -27,13 +34,27 @@
       <p>
         Lorem ipsum dololores saepe exercitationem impedit aliquid distinctio,
         inventore fugiat perferendis repellat natus adipisci earum ratione iusto
-        aperiam, sequi reprehenderit maiores similique rerum! Officia! Lorem ipsum dololores saepe exercitationem impedit aliquid distinctio,
+        aperiam, sequi reprehenderit maiores similique rerum! Officia! Lorem
+        ipsum dololores saepe exercitationem impedit aliquid distinctio,
         inventore fugiat perferendis repellat natus adipisci earum ratione iusto
-        aperiam, sequi reprehenderit maiores similique rerum! Officia!Lorem ipsum dololores saepe exercitationem impedit aliquid distinctio,
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero vel rem
+        et dignissimos? Sint sapiente consectetur laudantium non nihil alias
+        ratione deleniti explicabo quisquam perferendis sed nulla, doloribus
+        fugit eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Provident iure assumenda consequuntur laboriosam sunt magnam,
+        perferendis obcaecati necessitatibus quis labore. Corrupti et, vel eius
+        sit facere totam sed molestias repudiandae. Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Nostrum non distinctio corporis labore at
+        voluptatibus, vitae delectus perspiciatis exercitationem. Earum quae
+        optio labore quia odit nemo unde. Cupiditate, labore voluptatem?
+        aperiam, sequi reprehenderit maiores similique rerum! Officia!Lorem
+        ipsum dololores saepe exercitationem impedit aliquid distinctio,
         inventore fugiat perferendis repellat natus adipisci earum ratione iusto
-        aperiam, sequi reprehenderit maiores similique rerum! Officia!Lorem ipsum dololores saepe exercitationem impedit aliquid distinctio,
+        aperiam, sequi reprehenderit maiores similique rerum! Officia!Lorem
+        ipsum dololores saepe exercitationem impedit aliquid distinctio,
         inventore fugiat perferendis repellat natus adipisci earum ratione iusto
-        aperiam, sequi reprehenderit maiores similique rerum! Officia!Lorem ipsum dololores saepe exercitationem impedit aliquid distinctio,
+        aperiam, sequi reprehenderit maiores similique rerum! Officia!Lorem
+        ipsum dololores saepe exercitationem impedit aliquid distinctio,
         inventore fugiat perferendis repellat natus adipisci earum ratione iusto
         aperiam, sequi reprehenderit maiores similique rerum! Officia!
       </p>
@@ -41,7 +62,7 @@
       <button class="btn btn-outline-success btn-lg">Sign Up</button>
       <button class="btn btn-outline-primary btn-lg">Sign In</button>
       <button class="btn btn-info">
-        Messages <span class="badge bg-danger">101</span>
+        Messages <span class="badge bg-danger rounded-pill">101+</span>
       </button>
 
       <div class="alert bg-primary alert-dismissible">
@@ -51,10 +72,9 @@
 
       <div class="btn-group">
         <button class="btn btn-primary">Add</button>
-        <button class="btn btn-primary">Edit</button>
-        <button class="btn btn-primary">Delete</button>
+        <button class="btn btn-danger">Edit</button>
+        <button class="btn btn-success">Delete</button>
       </div>
-
     </div>
 
     <script
